@@ -209,9 +209,9 @@ Flickr (se necesita los siguientes datos: nombre de usuario, correo electrónico
 173. funcion obtenerMensaje(a, i)
 174.     cadena, x(200)[{a-z},{A-Z},{0-100},{BS}] <-- ""
 175.     (mensajeFinal(3),x(300)[{a-z}, {A-Z}, {BS}])
-176.     mensajeFinal <-- {"Campaña afluencia", 
-                        "Campaña Actual siga adelante", 
-                        "Muy buena Campaña"}
+176.     mensajeFinal <-- {"Campaña con poca afluencia", 
+                        "Campaña moderada siga adelante", 
+                        "Excelente campaña"}
 177.     Si ((a >= 1) and (a <= 5)) entonces
 178.         cadena <-- mensajeFinal[0]
 179.     De lo contrario
